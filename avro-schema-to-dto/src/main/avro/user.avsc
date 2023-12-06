@@ -1,0 +1,19 @@
+{
+  "type" : "record",
+  "name" : "UserDto",
+  "doc" : "This is a user class",
+  "namespace" : "com.example.avroschema",
+  "fields" : [ {
+    "name" : "src",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "username",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "firstName",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "lastName",
+    "type" : [ "null", "string" ]
+  } ]
+}

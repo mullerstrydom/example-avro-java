@@ -1,0 +1,25 @@
+{
+  "type" : "record",
+  "name" : "UserAccessDto",
+  "namespace" : "com.example.avroschema",
+  "fields" : [ {
+    "name" : "userName",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "groups",
+    "type" : [ "null", {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "GroupDto",
+        "fields" : [ {
+          "name" : "id",
+          "type" : [ "null", "string" ]
+        }, {
+          "name" : "name",
+          "type" : [ "null", "string" ]
+        } ]
+      }
+    } ]
+  } ]
+}

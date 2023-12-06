@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'example-avro-java'
+include 'avro-schema-to-dto'
+include 'avro-dto-to-schema'
+
